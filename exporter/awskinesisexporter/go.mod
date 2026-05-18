@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awskinesisexporter
 
-go 1.19
+go 1.25
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.18.1
@@ -25,7 +25,7 @@ require (
 )
 
 require (
-	github.com/apache/thrift v0.18.1 // indirect
+	github.com/apache/thrift v0.23.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.10 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.4 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.34 // indirect
