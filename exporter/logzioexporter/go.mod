@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter
 
-go 1.19
+go 1.25
 
 require (
 	github.com/hashicorp/go-hclog v1.5.0
@@ -23,7 +23,7 @@ require (
 )
 
 require (
-	github.com/apache/thrift v0.18.1 // indirect
+	github.com/apache/thrift v0.23.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.13.0 // indirect
